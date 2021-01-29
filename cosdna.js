@@ -35,14 +35,14 @@ var cosDnaCompare = (function ($) {
         hostname = $('<a>').attr('href', product2).attr('hostname');
 
         // Make sure they entered a CosDNA link into the prompt
-        if (hostname.indexOf('cosdna.com') >= 0  && product2 != null) {
+        //if (hostname.indexOf('cosdna.com') >= 0  && product2 != null) {
           compareProducts(product2);
-        } else {
-          alert( message.domain );
-        }
-      } else {
-        alert( message.nullInput );
-      }
+        //} else {
+          //alert( message.domain );
+        //}
+      //} else {
+        //alert( message.nullInput );
+      //}
     } else {
       alert( message.domain );
     }
